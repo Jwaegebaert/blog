@@ -8,7 +8,7 @@ categories:
 images:
   - images/weeklyagenda16.png
 tags: []
-type: trending
+type: regular
 videos:
   - https://www.youtube.com/watch?v=WEOeKXcCZvY
 draft: false
@@ -40,9 +40,8 @@ Demos this time
 
 Demos: 
 
-* Demo 1 - To be announced
-* Demo 2 - To be announced
-* Demo 3 - To be announced
+* With Great Power (Apps) Comes Great Reusability [Keith Atherton](https://twitter.com/MrKeithAtherton) | @MrKeithAtherton
+* Copilot is the coworker you never knew you always needed [Shane Young](https://twitter.com/ShanesCows) | @ShanesCows
 
 
 Also: 📷 Picture Time with community in Together Mode!
@@ -71,6 +70,7 @@ Demos:
 * If you can't make it this time, you can read the summary blog post including call recording here: [Microsoft identity platform community call](https://pnp.github.io/blog/categories/microsoft-identity-platform-community-call/)
 
 Topic:
+
 * Mastering Azure AD App Security: Safeguarding Service Principals for Smooth and Secure Automation
 
 ## New videos 
