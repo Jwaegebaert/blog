@@ -8,7 +8,7 @@ categories:
 images:
   - images/weeklyagenda26.png
 tags: []
-type: trending
+type: regular
 videos: null
 draft: false
 ---
@@ -103,7 +103,6 @@ All the latest updates on the Microsoft 365 platform are shared from the [Micros
 
 Here are the last week's community call recordings. You can download recurrent invites to the community calls from https://aka.ms/m365/calls.
 
-* [Microsoft 365 & Power Platform Development Community call - 22nd of June, 2023](https://pnp.github.io/blog/microsoft-365-and-power-platform-development-community-call/2023-06-22/)
 * [Power Platform Community Call – June 2023](https://pnp.github.io/blog/power-platform-community-call/power-apps-community-call-june-2023/)
 * [Microsoft 365 & Power Platform Community Call - 20th of June, 2023](https://pnp.github.io/blog/microsoft-365-platform-community-call/2023-06-20/)
 
@@ -136,7 +135,7 @@ Please take the opportunity to join these great conferences organized by the bes
 * [Microsoft Ignite 2023](https://ignite.microsoft.com/) - November 15-16, 2023
 * [CollabDays Lisbon 2023](https://www.collabdays.org/2023-lisbon/) - November 25, 2023 - Lisbon, Portugal
 * [European SharePoint, Office 365 & Azure Conference 2023](https://www.sharepointeurope.com/) - November 27-30 - Amsterdam, Netherlands
-* [AMS Aachen](https://www.communitydays.org/event/2023-11-28/ams-aachen) - November 28, 2023 - Aachen, Germany
+* [AMS Aachen](https://www.communitydays.org/event/2023-11-16/ams-aachen) - November 16, 2023 - Aachen, Germany
 * [European Cloud Summit](https://www.cloudsummit.eu/) - December 4-6, 2023 - Wiesbaden, Germany
 
 We hope to see you around!
