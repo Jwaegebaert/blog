@@ -8,7 +8,7 @@ categories:
 images:
   - images/weeklysummary05.png
 tags: []
-type: trending
+type: regular
 videos:
   - https://www.youtube.com/watch?v=QcI2quaKaJo
 draft: false
@@ -44,9 +44,10 @@ Demos this time
 
 Demos this time
 
-* [Ejaz Hussain](https://www.linkedin.com/in/hussaine/) (Advania UK) - How to build Microsoft Graph Custom Connector for Microsoft Learn Catalog API
-* [Markus Möller](https://www.linkedin.com/in/markus-moeller-25b72821/) (Avanade) - Creating Teams Meetings and install Teams Meeting App + custom data​
-* [Chris Kent](https://www.linkedin.com/in/thechriskent/) (Takeda) - List Formatting Tips & Tricks
+* [Ejaz Hussain](https://twitter.com/EjazHussain_) (Advania UK) | @EjazHussain_ - How to build Microsoft Graph Custom Connector for Microsoft Learn Catalog API
+* [Markus Möller](https://twitter.com/Moeller2_0) (Avanade) | @Moeller2_0- Creating Teams Meetings and install Teams Meeting App + custom data​
+* [Chris Kent](https://twitter.com/theChrisKent) (Takeda) | @TheChrisKent - List Formatting Tips & Tricks
+
 
 
 Also: 📷 Picture Time with community in Together Mode!
@@ -121,7 +122,7 @@ If you are looking to learn how to use the Microsoft 365 & Power Platform Commun
 
 You already contributed? Great, we want to celebrate and recognize you! Opt in for our [community recognition program](https://pnp.github.io/recognitionprogram/) and earn badges from our various initiatives! 
 
-![together-221201.png](images/community-recognization-program.png)
+![Community Recognition](../images/community-recognition-2025.png)
 
 ---
 

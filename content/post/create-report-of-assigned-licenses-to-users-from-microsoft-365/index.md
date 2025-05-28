@@ -10,7 +10,7 @@ tags: ["Power Automate", "Microsoft Graph"]
 type: "regular"
 ---
 
-### Introduction 
+### Introduction
 
 Power Automate is a tool that enables you to implement queries without
 knowing hardcore coding patterns. Microsoft Graph API is the universal
@@ -39,7 +39,7 @@ store excel report in the SharePoint document library.
 5.  Connect to Graph API
 6.  Excel Online Connectors in Power Automate
 7.  Add row to Excel Worksheet.
-   
+
 **Prerequisites**
 
 1.  Microsoft 365 Account
@@ -56,12 +56,12 @@ and SKU IDs**
 When we get the user's assigned licenses from Graph API then it returns
 SKU ID only. So, we can use this list to filter Product Names from SKU
 ID. [Select
-here](https://docs.microsoft.com/azure/active-directory/enterprise-users/licensing-service-plan-reference) to
+here](https://learn.microsoft.com/azure/active-directory/enterprise-users/licensing-service-plan-reference) to
 get a list of licenses product names and SKU IDs.
 
 Create a new list called "licenses" in SharePoint Site and add a column
 called GUID. Add Product Name and GUID from above Microsoft Documents.
-![Reports 13.jpg](images/Reports 13.jpg)
+![Reports 13.jpg](images/Reports%2013.jpg)
 
 ## Step 2 - Register Application and Azure Active Directory
 
@@ -101,7 +101,7 @@ called GUID. Add Product Name and GUID from above Microsoft Documents.
 
 Open power automates from App list in Microsoft 365.
 Create new flow -> Select Recurrence -> Select month -> Create.
-![Create report of assigned licenses for users from Microsoft 36502.gif](images/Create report of assigned licenses for users from Microsoft 36502.gif)
+![Create report of assigned licenses for users from Microsoft 36502.gif](images/Create%20report%20of%20assigned%20licenses%20for%20users%20from%20Microsoft%2036502.gif)
 
 ## Step 4 - Initialize variables in Power Automate
 
@@ -115,7 +115,7 @@ active directory.
 
 We will use 'Get Items' and 'Append to array object' connectors in
 power to automate.
-![Reports 3.png](images/Reports 3.png)
+![Reports 3.png](images/Reports%203.png)
 
 ## Step 6 - Create report file from excel template
 
@@ -125,7 +125,7 @@ store users' details in it.
 We will use "Get File Content" to get content from the existing excel
 file template and "Create File" to create a new file in the desire
 location in SharePoint.
-![Report4.1.png](images/Report4.1.png)-align-inline image-alt="Report4.1.png" style="width: 625px;"}
+![Report4.1.png](images/Report4.1.png)
  
 ## Step 7 - Access Excel worksheet in Power Automate
 
@@ -185,11 +185,11 @@ JSON Schema for Parse JSON should be the same as below.
 
 "Http" Connector will be used to execute rest API in power automate.
 End Point URL
-: [https://graph.microsoft.com/beta/users?$filter=userType%20eq%20%27Member%27&$select=displayName,crea...](https://graph.microsoft.com/beta/users?$filter=userType%20eq%20%27Member%27&$select=displayName,createdDateTime,accountEnabled,userPrincipalName,givenName,surname,externalUserState,assignedLicenses)
+:  `https://graph.microsoft.com/beta/users?$filter=userType%20eq%20%27Member%27&$select=displayName,createdDateTime,accountEnabled,userPrincipalName,givenName,surname,externalUserState,assignedLicenses`
 Method: get
 Authentication: Azure Active Directory
-Tenant: Add Reference of TenantId variable 
-Client Id: Add Reference of Client ID Variable 
+Tenant: Add Reference of TenantId variable
+Client Id: Add Reference of Client ID Variable
 Secret: Add Reference of Client Secret Variable
 Audience: Add Reference of AudienceURL variable
  ![reports7.png](images/reports7.png)
@@ -274,7 +274,7 @@ of the automation.
 Let's Access the assigned Licenses object from the user's object which
 is getting on the response of HTTP request.
 
-![Create report of assigned licenses for users from Microsoft 36508.jpg](images/Create report of assigned licenses for users from Microsoft 36508.jpg)
+![Create report of assigned licenses for users from Microsoft 36508.jpg](images/Create%20report%20of%20assigned%20licenses%20for%20users%20from%20Microsoft%2036508.jpg)
 
 Let's filter the array if we found licenses are assigned to the user.
 We can get SKU ID from the response and we do filter from licenses array
@@ -289,11 +289,11 @@ in power automate.
 Add a new row in the table is created excel file.
 ![reports10.png](images/reports10.png)
 Full Power automate will look like as below.
-![Create report of assigned licenses for users from Microsoft 36511.gif](images/Create report of assigned licenses for users from Microsoft 36511.gif)
+![Create report of assigned licenses for users from Microsoft 36511.gif](images/Create%20report%20of%20assigned%20licenses%20for%20users%20from%20Microsoft%2036511.gif)
 The output will be as below.
-![Create report of assigned licenses for users from Microsoft 36512.png](images/Create report of assigned licenses for users from Microsoft 36512.png)
+![Create report of assigned licenses for users from Microsoft 36512.png](images/Create%20report%20of%20assigned%20licenses%20for%20users%20from%20Microsoft%2036512.png)
 
-### Conclusion 
+### Conclusion
 
 We learned how to connect the SharePoint site and list to Power
 automate, Create and append array, Call graph End point, Register

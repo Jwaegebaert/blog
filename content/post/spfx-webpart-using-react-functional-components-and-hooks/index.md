@@ -4,7 +4,7 @@ date: 2023-09-14T09:00:00-00:00
 author: "Chandani Prajapati"
 githubname: chandaniprajapati
 categories: ["Community post"]
-tags: ["SharePoint Framework (SPFx)", "SPFx", "SharePoint"]
+tags: ["SharePoint Framework (SPFx)", "SharePoint"]
 type: "regular"
 ---
 
@@ -26,9 +26,9 @@ State Management with Hooks: React hooks, such as useState and useEffect, simpli
 
 ## Implementation
 
-**1. Create a SPFx project** 
+**1. Create a SPFx project**
 
-  - To create a new webpart, refer to [this](https://learn.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/get-started/build-a-hello-world-web-part) article.
+  - To create a new webpart, refer to [this](https://learn.microsoft.com/sharepoint/dev/spfx/web-parts/get-started/build-a-hello-world-web-part) article.
 
   - It will inquire with a series of questions, as depicted below:
 
@@ -41,7 +41,7 @@ State Management with Hooks: React hooks, such as useState and useEffect, simpli
    - Export the object.
 
 Let's see an example that illustrates the process of converting a class component into a functional component..
-   
+
 ```tsx
 //Class component
 import * as React from 'react';
@@ -62,7 +62,7 @@ export default class ReactHooksDemo extends React.Component<IReactHooksDemoProps
       </section>
     );
   }
-}   
+}
 ```
 To
 
